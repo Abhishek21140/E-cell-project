@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CaseVault</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="logo">
+            <h1>CaseVault</h1>
+        </div>
+
+        <div class="nav-actions">
+
+            <!-- Search Bar -->
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search case studies..."
+            >
+
+            <!-- Sort Dropdown -->
+            <select id="sortSelect">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="az">A - Z</option>
+                <option value="za">Z - A</option>
+            </select>
+
+            <!-- Upload Button -->
+            <a href="upload.html" class="upload-btn">
+                Upload
+            </a>
+
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+        <h2>Discover Winning Case Studies</h2>
+        <p>
+            Browse, search and explore case competition presentations.
+        </p>
+    </section>
+
+    <!-- ================= CARD SECTION ================= -->
+
+    <main>
+
+        <div id="cardsContainer" class="cards-container">
+
+            <!-- Card 1 -->
+            <div class="case-card">
+                <img
+                    src="https://picsum.photos/300/180?random=1"
+                    alt="Case Thumbnail"
+                >
+
+                <div class="card-content">
+                    <h3>Marketing Strategy 2024</h3>
+
+                    <p>
+                        A detailed marketing strategy for a fast-growing startup.
+                    </p>
+
+                    <div class="tags">
+                        <span>Marketing</span>
+                        <span>Strategy</span>
+                    </div>
+
+                    <small>Uploaded: 15 June 2026</small>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="case-card">
+                <img
+                    src="https://picsum.photos/300/180?random=2"
+                    alt="Case Thumbnail"
+                >
+
+                <div class="card-content">
+                    <h3>Consulting Growth Plan</h3>
+
+                    <p>
+                        Business expansion roadmap for a consulting company.
+                    </p>
+
+                    <div class="tags">
+                        <span>Consulting</span>
+                        <span>Business</span>
+                    </div>
+
+                    <small>Uploaded: 10 June 2026</small>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="case-card">
+                <img
+                    src="https://picsum.photos/300/180?random=3"
+                    alt="Case Thumbnail"
+                >
+
+                <div class="card-content">
+                    <h3>Product Launch Case</h3>
+
+                    <p>
+                        Launch strategy for a new consumer product.
+                    </p>
+
+                    <div class="tags">
+                        <span>Product</span>
+                        <span>Launch</span>
+                    </div>
+
+                    <small>Uploaded: 5 June 2026</small>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="case-card">
+                <img
+                    src="https://picsum.photos/300/180?random=4"
+                    alt="Case Thumbnail"
+                >
+
+                <div class="card-content">
+                    <h3>FinTech Innovation</h3>
+
+                    <p>
+                        Digital banking solutions for emerging markets.
+                    </p>
+
+                    <div class="tags">
+                        <span>Finance</span>
+                        <span>Technology</span>
+                    </div>
+
+                    <small>Uploaded: 2 June 2026</small>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Empty State -->
+
+        <div id="emptyState" class="empty-state">
+            No case studies found.
+        </div>
+
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
