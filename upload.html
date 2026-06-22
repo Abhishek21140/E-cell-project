@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Case Study</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <h1>CaseVault</h1>
+        </div>
+
+        <a href="index.html" class="upload-btn">
+            Home
+        </a>
+
+    </header>
+
+    <!-- UPLOAD FORM -->
+
+    <section class="upload-section">
+
+        <div class="upload-container">
+
+            <h2>Upload Case Study</h2>
+
+            <form id="uploadForm">
+
+                <!-- Title -->
+
+                <label for="title">
+                    Title
+                </label>
+
+                <input
+                    type="text"
+                    id="title"
+                    placeholder="Enter case study title"
+                    required
+                >
+
+                <!-- Description -->
+
+                <label for="description">
+                    Description
+                </label>
+
+                <textarea
+                    id="description"
+                    rows="5"
+                    placeholder="Enter description"
+                    required
+                ></textarea>
+
+                <!-- Tags -->
+
+                <label for="tags">
+                    Tags
+                </label>
+
+                <input
+                    type="text"
+                    id="tags"
+                    placeholder="Marketing, Consulting, Finance"
+                    required
+                >
+
+                <!-- Image URL -->
+
+                <label for="image">
+                    Image URL
+                </label>
+
+                <input
+                    type="text"
+                    id="image"
+                    placeholder="Paste image URL"
+                    required
+                >
+
+                <!-- PDF Name -->
+
+                <label for="pdf">
+                    PDF Name
+                </label>
+
+                <input
+                    type="text"
+                    id="pdf"
+                    placeholder="CaseStudy.pdf"
+                    required
+                >
+
+                <!-- Submit Button -->
+
+                <button type="submit">
+                    Upload
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <script src="upload.js"></script>
+
+</body>
+</html>
